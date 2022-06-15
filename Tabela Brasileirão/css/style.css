@@ -1,0 +1,113 @@
+
+/* Reset CSS Import Starts */
+
+@import url(reset.css);
+
+/* Reset CSS Import Ends */
+
+
+/* Table Elements Starts*/
+
+
+/* Global Elements Starts */
+
+table{
+    border-collapse: collapse;
+    text-align: center;
+    font-family: sans-serif;
+    margin: auto;
+}
+
+tr,table{
+    border: 1px solid black;
+}
+
+th{
+    color: gray;
+}
+
+td{
+    min-width: 44.5px;
+}
+
+th,td{
+    padding: .5rem;
+}
+
+/* Global Elements Ends */
+
+
+/*Elements Inside Tbody Starts*/
+
+
+tbody > tr > td:nth-child(even){
+    background-color: rgba(128, 128, 128, 0.111);
+    
+}
+
+tbody > tr > td:nth-child(2){
+    font-weight: bolder;
+}
+
+tbody > tr > td:first-child{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 5rem;
+}
+
+/*Elements Inside Tbody Ends*/
+
+/* Style For Number And Team Name Starts */
+
+.number{
+    font-size: 1.5rem;
+    margin-right: .5rem;
+    font-weight: bolder;
+}
+
+
+.team{
+    color: gray;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+/* Style For Number And Team Name Ends */
+
+
+/* Classes For Colorize Numbers Starts */
+
+
+.dark-blue{
+    color: #385776;
+
+}
+
+.light-blue{
+    color: #67C0D9;
+}
+
+.yellow{
+    color: #D3AA2C;
+}
+
+.gray{
+    color: gray;
+}
+.wine{
+    color:#B64C3B;
+}
+
+/* Classes For Colorize Numbers Ends */
+
+
+/* Table Elements Ends*/
+
+
+
+
+
+
+
+
