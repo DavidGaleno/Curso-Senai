@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@300&display=swap');
+
+/* Reset CSS */
+
+@import url(reset.css);
+
+/* Reset CSS */
+
+
+
+body{
+    background-color: #33b864;
+}
+
+#container{
+    margin-top: 3rem;
+}
+
+a::after{
+    content: '';
+    display: block;
+    background-color: #062712;
+    width: 0;
+    height: 2px;
+    margin-top: .1rem;
+}
+
+a:hover::after{
+    width: 100%;
+    transition: .5s;
+}
+
+a:not(:hover)::after{
+    width: 0;
+    transition: 1.5s;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+table{
+    margin: auto;
+}
+table{
+    border-collapse: collapse;
+    width: 80%;
+}
+
+th,tr,td{
+    border: 1px solid black;
+    text-align: center;
+    padding: 1rem;
+}
+
+tbody> tr:nth-child(odd){
+    background-color: rgb(113, 219, 183);
+}
+
+@media screen and (max-width:500px) {
+    table{
+        width: auto;
+    }
+}
+
