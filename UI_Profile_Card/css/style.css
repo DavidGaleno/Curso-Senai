@@ -59,19 +59,22 @@ img{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     background-color: #272E37;
     min-width: 270px;
     max-width: 600px;
     margin: auto;
 }
 
-
 /* Header CSS */
 
+
 header{
+    width: 100%;
     padding: 1em;
     margin-bottom: .3em;
 }
+
 
 header i:hover{
     transform: rotate(-90deg);
@@ -94,6 +97,7 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 90%;
 }
 
 /* #Person CSS */
@@ -117,7 +121,6 @@ main{
     align-items: center;
     justify-content: center;
     padding-bottom: 3em;
-    width: 90%;
     gap: 2em;
 
 }
@@ -158,7 +161,6 @@ main{
 
 
 #status{
-    width: 90%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -284,17 +286,15 @@ footer ul{
 
 
 #person, #status{
+    width: 100%;
     border-bottom: 1px solid black;
 }
 
 
 
 @media screen and (max-width:392px) {
-    #person,#status{
+    #main{
         width: 100%;
-    }
-    p{
-        width: 90%;
     }
     #likes ul li i {
         font-size: 1em;
