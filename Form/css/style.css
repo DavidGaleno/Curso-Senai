@@ -18,6 +18,19 @@ h1 i{
     color: #ffbb33;
 }
 
+i{
+    cursor: pointer;
+}
+
+i:hover{
+    transform: scale(1.3);
+    transition: .3s;
+}
+
+i:not(:hover){
+    transition: .3s;
+}
+
 #container{
     background-color: rgb(36, 37, 43);
 }
@@ -43,6 +56,17 @@ h1 i{
 
 .yellow{
     color: #ffbb33;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.yellow:hover{
+    transform: scale(1.1);
+    transition: .3s;
+}
+
+.yellow:not(:hover){
+    transition: .3s;
 }
 
 .form-section{
@@ -117,7 +141,30 @@ label{
 #send{
     background-color: #d4a13b;
 }
+#send:hover{
+    transform: scale(1.3);
+    transition: .3s;
+}
+
+#send:not(:hover){
+    transition: .3s;
+}
 
 #clean{
     background-color: orangered;
+}
+
+#clean:hover{
+    transform: scale(.9);
+    transition: .3s;
+}
+
+#clean:not(:hover){
+    transition: .3s;
+}
+
+@media screen and (max-width: 474px) {
+    #buttons-section{
+        flex-direction: column;
+    }
 }
