@@ -6,7 +6,7 @@
 body{
     font-family: 'Anek Malayalam', sans-serif;
     color: white;
-    background-color: bisque;
+    background-color: rgba(0, 0, 0, 0.653);
 }
 
 ul{
@@ -38,6 +38,21 @@ button{
     margin-bottom: 3em;
 }
 
+button:hover{
+    transform: scale(1.3);
+    transition: .3s;
+
+ }
+
+ button:not(:hover){
+    transform: scale(1);
+    transition: .3s;
+ }
+
+img{
+    width: 100%;
+}
+
 /* Tags CSS */
 
 #container{
@@ -56,6 +71,16 @@ button{
 header{
     padding: 1em;
     margin-bottom: .3em;
+}
+
+header i:hover{
+    transform: rotate(-90deg);
+    transition: .5s;
+}
+
+header i:not(:hover){
+    transform: rotate(0deg);
+    transition: .5s;
 }
 
 
@@ -100,6 +125,7 @@ main{
 #person #profile-picture{
     width: 100px;
     height: 100px;
+    cursor: pointer;
     background-image: url('../Profile_Picture.png');
     background-size: cover;
     border-radius: 50px;
@@ -113,6 +139,16 @@ main{
     align-items: center;
 }
 
+#profile-picture:hover{
+    transform: scale(1.5);
+    transition: .3s;
+}
+
+#profile-picture:not(:hover){
+    transform: scale(1);
+    transition: .3s;
+
+}
 
 /* #Person CSS*/
 
@@ -189,6 +225,19 @@ main{
  #likes ul li i {
      font-size: 2em !important;
  }
+
+
+ #likes ul li i:hover{
+    transform: scale(1.2);
+    transition: .3s;
+
+ }
+
+ #likes ul li i:not(:hover){
+    transform: scale(1);
+    transition: .3s;
+
+ }
  
  #likes ul li span{
      font-size: .7em;
@@ -212,6 +261,17 @@ footer{
     align-items: center;
     justify-content: center;
 }
+
+footer i:hover{
+    transform: scale(1.5);
+    transition: .3s;
+
+ }
+
+ footer i:not(:hover){
+    transform: scale(1);
+    transition: .3s;
+ }
 
 footer ul{
     gap: 2em;
