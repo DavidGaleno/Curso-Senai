@@ -1,0 +1,123 @@
+@import url('reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+}
+
+form{
+    padding: 1em;
+}
+
+label{
+    font-size: 1em;
+}
+
+h1 i{
+    color: #ffbb33;
+}
+
+#container{
+    background-color: rgb(36, 37, 43);
+}
+
+#form-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#form-header{
+    flex-direction: column;
+    gap: 1em;
+}
+
+#form-header h1{
+    font-size: 1.2em;
+}
+
+#form-header h1,h2,p{
+    text-align: center;
+}
+
+.yellow{
+    color: #ffbb33;
+}
+
+.form-section{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin-top: 3em;
+}
+
+#gender-section{
+    gap: 1em;
+}
+#gender-section span{
+    font-size: 1em;
+}
+
+#sex-section{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 2em;
+}
+
+#sex-section i, #sex-section input{
+    font-size: 1.5em;
+    color: #ffbb33;
+}
+
+#sex-section input{
+    appearance: none;
+    border-radius: 50%;
+    width: .7em;
+    height: .7em;
+    border: 2px solid gray;
+    transition: .6s;
+    position: relative;
+    cursor: pointer;
+}
+
+#sex-section input:checked{
+    border: 4px solid #ffbb33;
+}
+
+.input{
+    background-color: transparent;
+    color: white;
+    outline: none;
+    border-bottom: 1px solid gray;
+    padding: .5em 2em 1em .5em;
+    
+}
+
+label{
+    cursor: pointer;
+}
+
+#buttons-section{
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.button{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    padding: 1em 3em 1em 3em;
+    background-color: #ffbb33;
+    color: white;
+    cursor: pointer;
+}
+
+#send{
+    background-color: #d4a13b;
+}
+
+#clean{
+    background-color: orangered;
+}
