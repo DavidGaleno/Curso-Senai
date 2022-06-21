@@ -4,6 +4,7 @@
 body{
     font-family: 'Montserrat', sans-serif;
     color:white;
+    background-color: rgb(36, 37, 43);
 }
 
 form{
@@ -31,9 +32,6 @@ i:not(:hover){
     transition: .3s;
 }
 
-#container{
-    background-color: rgb(36, 37, 43);
-}
 
 #form-header{
     display: flex;
