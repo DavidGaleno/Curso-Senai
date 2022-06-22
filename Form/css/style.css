@@ -5,7 +5,7 @@ body{
     font-family: 'Montserrat', sans-serif;
     color:white;
     background-color: rgb(36, 37, 43);
-    background-image: url('../609d31f50e6de11186f27954_Prosperity-3.jpg');
+    background-image: url('../background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -21,6 +21,20 @@ form{
 
 label{
     font-size: 1em;
+}
+
+input:focus{
+    margin-top: 1em;
+    transition: 1s;
+    font-size: 1.5em;
+}
+
+input:not(:focus){
+    transition: 1s;
+}
+
+input:hover + label{
+    font-size: .5em;
 }
 
 h1 i{
@@ -133,7 +147,7 @@ label{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin-bottom: 3em;
+    margin-bottom: 1em;
 }
 
 .button{
