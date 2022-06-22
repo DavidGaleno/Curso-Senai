@@ -5,8 +5,16 @@ body{
     font-family: 'Montserrat', sans-serif;
     color:white;
     background-color: rgb(36, 37, 43);
+    background-image: url('../609d31f50e6de11186f27954_Prosperity-3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
+#container{
+    background-color:rgb(36, 37, 43);
+    width: 50%;
+    height: 100vh;
+}
 form{
     padding: 1em;
 }
@@ -124,7 +132,8 @@ label{
 #buttons-section{
     justify-content: center;
     align-items: center;
-    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 3em;
 }
 
 .button{
@@ -161,8 +170,18 @@ label{
     transition: .3s;
 }
 
-@media screen and (max-width: 474px) {
-    #buttons-section{
-        flex-direction: column;
-    }
+
+
+@media screen and (max-height: 1198px) {
+   #container{
+    height: auto;
+   }
 }
+
+@media screen and (max-width: 1330px) {
+    #container{
+    width: 100%;
+    }
+ }
+
+
