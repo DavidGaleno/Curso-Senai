@@ -1,0 +1,14 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    vertical-align: baseline;
+    scroll-behavior: smooth;
+    
+}
+html{
+    font-size: 62.5%;
+}
