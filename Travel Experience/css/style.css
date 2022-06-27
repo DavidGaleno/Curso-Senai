@@ -26,11 +26,13 @@
         width: 100%;
         height: 100vh;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: center;
+        gap: 87px;
         align-items: center;
         position: relative;
         z-index: 1;
         padding: 2em;
+        padding-bottom: 2.5em;
     }
     .image{
         width: 200px;
@@ -53,7 +55,6 @@
 
     .card p{
         text-align: justify;
-        width: 200px;
     }
 
     .amsterdam{
@@ -72,46 +73,5 @@
         cursor: pointer;
         font-size: 1em;
     }
-    #content-1,#content-2,#content-3{
-        display: none;
-    }
 
 /* Content CSS Ends */
-
-/* Media Querry Starts */
-
-@media  screen and (max-width:914px) {
-    h1{
-       font-size: 6em;
-    }
-    main{
-        justify-content: space-around;
-    }
-    .card{
-        width: 200px;
-    }
-}
-@media  screen and (max-width:735px) {
-    h2{
-        width: 200px;
-    }
-   main{
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 10em;
-   }
-   .amsterdam{
-    align-self: center;
-   }
-   main{
-    height: 100%;
-   }
-   h1{
-    font-size: 3em;
-    position: relative;
-   }
- 
-}
-
-/* Media Querry Ends */
