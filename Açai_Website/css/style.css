@@ -13,15 +13,13 @@ a{
 h1,h2,h3,h4{
     text-align: center;
 }
-body{
-    overflow-y: hidden;
-}
 
+body{
+    background-color: var(--purple);
+}
 #container{
-    padding-bottom: 2em;
     height: 100vh;
     width: 100vw;
-    overflow-y: scroll;
     font-family: 'Noto Sans JP','Roboto',sans-serif;
     color: white; 
     background-color: var(--purple);
@@ -60,7 +58,6 @@ nav li{
 }
 main{
     overflow-x: hidden;
-    overflow-y: scroll;
     width: 100vw;
     height: 100vh;
 }
