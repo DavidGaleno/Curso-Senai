@@ -14,3 +14,10 @@ https://davidgaleno.github.io/Curso-Senai/Form/index.html
 
 Bioshock Infinite Website:
 https://davidgaleno.github.io/Curso-Senai/Bioshock_Infinite_Website/index.html
+
+Spiders-Gallery:
+https://davidgaleno.github.io/Curso-Senai/Spider-Gallery/pages/index.html#home
+
+Açaí_Website:
+https://davidgaleno.github.io/Curso-Senai/A%C3%A7ai_Website/index.html
+
