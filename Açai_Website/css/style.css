@@ -240,8 +240,8 @@ h4{
     header{
         flex-direction: column;
     }
-    header .logo span{
-        font-size: 1.2em;
+    header .logo{ 
+        display: none;
     }
     .product:not(:first-child){
         margin-top: 10em;
