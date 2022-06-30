@@ -29,6 +29,7 @@ body{
 
 header{
     position: relative;
+    padding: .5em 0 .5em 0;
     height:auto;
     width: 100vw;
     background-color: var(--purple);
@@ -212,9 +213,6 @@ h4{
     #dev-main ul{
         font-size:4em ;
     }
-    #dev-main{
-        overflow-y: scroll;
-    }
 }
 
 @media screen and (max-width:443px) {
@@ -237,10 +235,9 @@ h4{
     header{
         flex-direction: column;
     }
-    header .logo{ 
-        display: none;
+    .logo span{
+        font-size: 2em;
     }
- 
     .product{
         flex-direction: column;
         height: 100%;
