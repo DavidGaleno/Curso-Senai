@@ -31,7 +31,6 @@ body{
 
 header{
     position: relative;
-    padding: 2em 0 2em 0;
     height:10vh;
     width: 100vw;
     background-color: var(--purple);
@@ -238,8 +237,11 @@ h4{
 }
 
 @media screen and (max-width:767px) {
-    header {
+    header{
         flex-direction: column;
+    }
+    header .logo span{
+        font-size: 1.2em;
     }
     .product:not(:first-child){
         margin-top: 10em;
