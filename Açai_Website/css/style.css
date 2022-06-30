@@ -31,7 +31,7 @@ body{
 
 header{
     position: relative;
-    height:10vh;
+    height:auto;
     width: 100vw;
     background-color: var(--purple);
     display: flex;
@@ -263,9 +263,6 @@ h4{
 }
 
 @media screen and (max-height:576px) {
-    header{
-        height: auto;
-    }
     #dev-main,#product-main{
         height: auto;
     }
