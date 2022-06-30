@@ -19,7 +19,7 @@ html{
     position: relative;
     width: 100vw;
     height: 100vh; 
-    background-image: url('../images/spiders.jpg');
+    background-color:black;
     background-size: cover;
     background-repeat: no-repeat;
     overflow-x: hidden !important;
@@ -252,6 +252,7 @@ a{
     .container{
         grid-template-rows: 60px 4fr;
     }
+   
     #logo{
         width: 2em;
     }
