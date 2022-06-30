@@ -243,9 +243,7 @@ h4{
     header .logo{ 
         display: none;
     }
-    .product:not(:first-child){
-        margin-top: 10em;
-    }
+ 
     .product{
         flex-direction: column;
         height: 100%;
