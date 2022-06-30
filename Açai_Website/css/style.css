@@ -63,7 +63,7 @@ main{
     overflow-x: hidden;
     overflow-y: scroll;
     width: 100vw;
-    height: 95vh;
+    height: 100vh;
 }
 .home-main{
     display: flex;
@@ -223,11 +223,18 @@ h4{
 
 @media screen and (max-width:443px) {
     #dev-main h1{
-        font-size: 4em;
+        font-size: 3em !important;
     }
     #dev-main p{
         font-size: 2em;
     }
+    header nav ul{
+        gap: 1em;
+    }
+    h3{
+        font-size: 3.5em;
+    }
+  
 }
 
 @media screen and (max-width:767px) {
