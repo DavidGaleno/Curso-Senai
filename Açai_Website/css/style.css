@@ -246,7 +246,8 @@ h4{
     }
     .product{
         flex-direction: column;
-        height: auto;
+        height: 100%;
+        overflow-y: scroll;
     }
     .product-image{
         width: 100%;
