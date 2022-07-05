@@ -184,6 +184,11 @@ footer .social-media li a{
 .modal-subtitle{
     font-size: 3rem;
 }
+
+.modal-content,.modal-dialog{
+    height: auto !important;
+}
+
 .description p{
     padding-right: 1rem;
     padding-left: 1rem;
