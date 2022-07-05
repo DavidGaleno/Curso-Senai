@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+::-webkit-scrollbar{
+    background-color: black;
+    width: .5rem;
+}
+::-webkit-scrollbar-thumb{
+    background-color: gray;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 100;
+}
+
+header{
+    z-index: 1;
+    position: fixed;
+ }
+
+header .navbar{
+    width: 100vw;
+    max-height: 10vh;
+}
+
+
+header .navbar-brand{
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem !important;
+}
+
+header .navbar-nav{
+    gap: 2rem;
+}
+
+main h1,h2{
+    text-align: center !important;
+    flex-wrap: wrap !important;
+}
+
+
+.first-section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url('../imgs/background.jpg');
+    background-size: cover;
+}
+
+
+.first-section::before{
+    content: '';
+    position: absolute;
+    display: block;
+    height: 100%;
+    width:100%;
+    background-color: rgba(0, 0, 0, 0.635);
+}
+
+.first-section .container-fluid{
+    gap: 3rem;
+}
+
+
+.second-section{
+    height: 100vh;
+    width: 100%;
+}
+
+
+
+
+
+.nav-item a{
+    font-size: 1.5rem !important;
+}
+
+.container-fluid{
+    position: relative;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    align-content: center !important;
+}
+
+
+
+footer .navbar-brand{
+    font-size: 1.5rem;
+}
+
+.first-section .btn{
+    font-size: 2rem !important;
+}
+
+.btn{
+    padding: 1.5rem 3rem !important;
+}
+.row{
+    margin-top: 4rem !important;
+}
+.card{
+    border: 0 !important;
+}
+.card h5 i {
+    font-size: 8rem !important;
+}
+.card h6{
+    font-size: 2.5rem;
+}
+.third-section .card h5{
+    font-size: 3rem !important;
+
+}
+.third-section .card-body{
+    row-gap: 1rem;
+}
+.third-section{
+    height: auto;
+}
+
+.third-section .card h6{
+    font-size: 2rem !important;
+
+}
+
+.card p{
+    font-size: 1.5rem;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+
+
+
+
+footer .social-media li a{
+    font-size: 2rem !important;
+}
+
+
+@media screen and (max-width:991px) {
+    header .menu{
+        display: none !important;
+    }
+    
+}
+
+@media screen and (max-width:643px) {
+    header .menu{
+        display: none !important;
+    }
+    .second-section{
+        height: auto;
+        padding-top: 5rem;
+        padding-bottom: 2rem;
+    }
+    
+}
+
+
+@media screen and (max-height:345px) {
+    .first-section .container-fluid{
+        margin-top: 5rem;
+    }
+    
+}
+
