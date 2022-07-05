@@ -130,6 +130,10 @@ footer .navbar-brand{
 .btn{
     padding: 1.5rem 3rem !important;
 }
+
+.fourth-section .btn{
+    font-size: 2rem !important;
+}
 .row{
     margin-top: 4rem !important;
 }
@@ -171,9 +175,6 @@ footer .navbar-brand{
     gap: 3rem;
 }
 
-
-
-
 footer .social-media li a{
     font-size: 2rem !important;
 }
@@ -199,13 +200,39 @@ footer .social-media li a{
 .modal-footer .btn{
     font-size: 2rem;
 }
-
+input,select{
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+}
+input,textarea, select{
+    font-size: 2rem !important; 
+}
+select{
+    color: gray !important;
+}
+textarea{
+    resize: none !important;
+}
+::placeholder{
+    color: gray;
+}
 
 @media screen and (max-width:991px) {
     header .menu{
         display: none !important;
     }
     
+}
+
+@media screen and (max-width:767px){
+    .fourth-section form{
+        display: flex;
+        flex-direction: column;
+    }
+    .fourth-section textarea{
+        height: 20rem !important;
+        margin-top: .5rem;
+    }
 }
 
 @media screen and (max-width:643px) {
