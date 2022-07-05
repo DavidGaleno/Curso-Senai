@@ -74,8 +74,35 @@ main h1,h2{
     width: 100%;
 }
 
+.project-img{
+    position: relative;
+}
+.project-img img{
+    position: relative;
+}
+.project-img .before{
+    width: 100%;
+    height: 100%;
+    background-color: #ffb71cef;
+    opacity: 0;
+    transition: 1s ease-in-out;
+    top: 0;
+    left: 0;
+   position: absolute; 
+   cursor: pointer;
+}
+.before span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 5rem;
+}
 
-
+.project-img:hover .before{
+    opacity: 1;
+    transition: 1s ease-in-out !important; 
+}
 
 
 .nav-item a{
@@ -149,6 +176,23 @@ footer .navbar-brand{
 
 footer .social-media li a{
     font-size: 2rem !important;
+}
+
+.modal-title{
+    font-size: 5rem !important;
+}
+.modal-subtitle{
+    font-size: 3rem;
+}
+.description p{
+    padding-right: 1rem;
+    padding-left: 1rem;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.modal-footer .btn{
+    font-size: 2rem;
 }
 
 
