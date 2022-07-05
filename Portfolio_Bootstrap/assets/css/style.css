@@ -26,6 +26,8 @@ header{
 header .navbar{
     width: 100vw;
     max-height: 10vh;
+    min-height: 5.8rem !important;
+    
 }
 
 
@@ -122,6 +124,8 @@ footer .navbar-brand{
 }
 .third-section{
     height: auto;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 
 .third-section .card h6{
@@ -161,16 +165,31 @@ footer .social-media li a{
     }
     .second-section{
         height: auto;
-        padding-top: 5rem;
-        padding-bottom: 2rem;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
     }
     
 }
 
+@media screen and (max-height:471px){
+    .second-section{
+        height: auto !important;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+}
 
 @media screen and (max-height:345px) {
     .first-section .container-fluid{
         margin-top: 5rem;
+    }
+    header{
+        min-height: 5.8rem !important;
+    } 
+    .first-section{
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        height: auto !important;
     }
     
 }
