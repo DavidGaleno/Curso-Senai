@@ -246,24 +246,24 @@
           <section class="container mt-5 mb-5 fourth-section" id="contactus">
                 <h1 class="display-2 text-dark fw-bolder ">CONTACT US</h1>
                 <h2 class="display-5 text-secondary fw-normal">Check out all news we have</h2>
-                <form class="row g-3">
+                <form class="row g-3" action="https://formsubmit.co/davidgaleno411@gmail.com" method="POST">
                   <div class="col">
                     <div class="mb-4">
-                      <input type="name" class="form-control" placeholder="Name">
+                      <input type="name" name="name" class="form-control" placeholder="Name">
                     </div>  
                     <div class="mb-4">
-                      <input type="email" class="form-control" placeholder="Email">
+                      <input type="email" name="email" class="form-control" placeholder="Email">
                     </div>
                     <div class="mb-2">
-                      <input type="tel" class="form-control" placeholder="Number">
+                      <input type="tel" name="telephone" class="form-control" placeholder="Number">
                     </div>
                   </div>
                   <div class="col">
                     <div class="mb-4">
-                      <input type="tel" class="form-control" placeholder="Age">
+                      <input type="number" name="age" class="form-control" placeholder="Age">
                     </div>
                     <div class="mb-4">
-                      <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                      <select  name="state" class="form-select" id="floatingSelect" aria-label="Floating label select example">
                         <option selected disabled>State</option>
                           <option value="AC">Acre</option>
                           <option value="AL">Alagoas</option>
@@ -295,7 +295,7 @@
                       </select>
                     </div>
                     <div>
-                      <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                      <select  name="gender" class="form-select" id="floatingSelect" aria-label="Floating label select example">
                         <option selected disabled>Gender</option>
                         <option value="m">Male</option>
                         <option value="f">Female</option>
@@ -304,9 +304,11 @@
                     </div>
                   </div>
                   <div class="col">
-                      <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea" maxlength="200" style="height: 100%;"></textarea>
+                      <textarea name="comments" class="form-control" placeholder="Leave a comment here" id="floatingTextarea" maxlength="200" style="height: 100%;"></textarea>
                   </div>
                   <div class="d-flex justify-content-center mt-5"><button type="submit" class="btn btn-warning text-light">Submit</button></div>
+                  <input type="hidden" name="_next" value="https://davidgaleno.github.io/Curso-Senai/Portfolio_Bootstrap/index.html#">
+                  <input type="hidden" name="_autoresponse" value="Recebi sua mensagem. Aqui uma cópia do que você enviou">
                 </form>
               </section>
         </main>
