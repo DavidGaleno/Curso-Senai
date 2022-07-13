@@ -15,12 +15,11 @@ body{
 }
 .form{
     padding: 1.5rem;
-    height: 100%;
+    padding-right: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     display: flex;
-    align-items: center;
     flex-direction: column;
     width: 100%;
 }
@@ -29,9 +28,10 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     height: 100%;
     width: 100%;
+    padding-left: 0;
     padding: 1.5rem;
 }
 
@@ -51,7 +51,6 @@ body{
     justify-content: center;
     margin-bottom: 2rem;
 }
-
 .icons img{
     width: 5rem;
 }
