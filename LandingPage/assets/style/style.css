@@ -1,0 +1,155 @@
+@import url('reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+body{
+    font-family: 'Poppins',Sans-serif;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(225deg,#000 30%, #ff8400);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form{
+    padding: 1.5rem;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding: 1.5rem;
+}
+
+.image img{
+    height: 100%;
+}
+
+.image h4{
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 2rem;
+    color: #ff8400;
+}
+/* Header Section Starts */
+.icons{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.icons img{
+    width: 5rem;
+}
+
+/* Header Section Ends */
+
+/* Main Section Starts  */
+
+.title h1{
+    font-size: 5.5rem;
+    color: #ff8400;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-weight:600;
+}
+.title h2{
+    font-weight: 400;
+    font-size: 2.2rem;
+    color: white;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.title h3{
+    font-size: 2rem;
+    color: #ff8400;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #222222;
+    border: 1px solid #333;
+    width: 85%;
+    padding: 2rem 1.5rem;
+    border-radius: .5rem;
+}
+
+form h4{
+    color: #ff8400;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    align-items: flex-start;
+}
+
+#email{
+    height: 4.5rem;
+    border-radius: .5rem;
+    width: 100%;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.check-box{
+    width: 100%;
+    margin-bottom: 4rem;
+
+}
+
+.check-box label{
+    font-size: 1.5rem;
+    color: white;
+    margin-left: .5rem;
+}
+
+.button {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button input{
+    width: 100%;
+    border-radius: .5rem;
+    background-color: #ff8400;
+    font-weight: bold;
+    height: 5rem;
+    color: white;
+    font-size: 1.5rem;
+}
+.button span{
+    color: gray;
+    font-size: 1.5rem;
+    flex-wrap: wrap;
+}
+/* Main Section Ends  */
+
+@media screen and (max-width:1270px) {
+    .container{
+        height: auto;
+        flex-direction: column;
+    }
+}
